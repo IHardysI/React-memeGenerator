@@ -1,0 +1,39 @@
+.meme {
+    .meme__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    margin-bottom: 36px;
+    .meme__form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+        .meme__inputs {
+            display: flex;
+            gap: 17px;
+            .meme__input {
+                padding: 10px 11px;
+                width: 230px;
+                outline: none;
+                border: 1px solid #D5D4D8;
+                border-radius: 5px;
+            }
+        }
+        .meme__btn {
+            background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+            border-radius: 5px;
+            padding: 10px 156px 11px 155px;
+            color: white;
+            width: 477px;
+            cursor: pointer;
+            margin-bottom: 36px;
+        }
+    }
+    .meme__img {
+        max-width: 100%;
+        border-radius: 2px;
+    }
+}

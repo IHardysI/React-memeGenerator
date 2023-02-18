@@ -1,0 +1,20 @@
+@import "./style-components/header";
+@import "./style-components/reset";
+@import "./style-components/meme";
+
+[class*="__container"] {
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@media (max-width: 990.98px) {
+    [class*="__container"] {
+        max-width: 750px;
+    }
+}
+@media (max-width: 767.98px) {
+    [class*="__container"] {
+        max-width: none;
+    }
+}
