@@ -1,8 +1,6 @@
 import Header from "./components/Header"
 import style from "./style.scss"
 import Meme from "./components/Meme"
-import data from "./data.js"
-
 
 export default function App() {
     function click() {
